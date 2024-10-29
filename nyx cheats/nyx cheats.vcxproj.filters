@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entrypoint.cpp" />
+    <ClCompile Include="core\core.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking\hooking.cpp">
+      <Filter>hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers\pointers.cpp">
+      <Filter>pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\range.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\pattern_batch.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\pattern.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\module.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.hpp" />
+    <ClInclude Include="core\core.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="gta\sc_news_story.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\hooking.hpp">
+      <Filter>hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\detour\detour.hpp">
+      <Filter>hooking\detour</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking\hooks\news_story_request_handle_received_data.hpp">
+      <Filter>hooking\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="pointers\pointers.hpp">
+      <Filter>pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\signature.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\range.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\pattern_batch.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\pattern.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\module.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\fwddec.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\handle.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\all.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{5fa711c0-8f46-4036-aa2d-a4ebfcceeaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gta">
+      <UniqueIdentifier>{7499dace-2754-43f4-92c4-d46da405611a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking">
+      <UniqueIdentifier>{6c7ec3f8-99b1-4eaf-8492-ac351c0735f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking\detour">
+      <UniqueIdentifier>{f9359c86-bccb-422e-9c84-384281a59125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking\hooks">
+      <UniqueIdentifier>{9815552a-1327-4ba9-9e5c-b2b79b72fd72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pointers">
+      <UniqueIdentifier>{e863c46c-1999-41c7-875f-f1422b333cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{850f53d3-c1bf-4419-8ad8-1e12d7ded14b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
